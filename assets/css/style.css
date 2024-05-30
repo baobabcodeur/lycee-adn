@@ -1,0 +1,392 @@
+html, 
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: roboto-black;
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+.logo {
+    font-size: 23px;
+}
+.fform-1 {
+   padding: 60px 0 0 0;
+}
+
+.fform {
+    margin: 0 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+   
+}
+section div {
+    text-align: center;
+    color: #FFF;
+    background-color: #C4C4C4;
+   padding: 0 30px;
+    
+}
+.present {
+    margin: 70px;
+}
+.zone-img {
+    width: 100%;
+    height: 30vh;
+    background-color: #C4C4C4;
+}
+.plus {
+    margin: 100px 250px;
+   
+}
+.flex-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.article-1 {
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid #26874E;
+    padding: 10px;
+    max-width: 350px;
+}
+.articles-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: row dense;
+    
+    justify-items: center;
+    gap: 30px;
+}
+
+a:hover {
+    color: #26874E;
+}
+.flex-3 {
+    display: flex;
+    gap: 10px;
+}
+.posit {
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+}
+.recherch {
+    width: 150px;
+}
+.hyper {
+    background-image: url("../images/hyper.png");
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.sep {
+    height: 1px;
+    width: 100%;
+    background-color: #C4C4C4;
+}
+.rigth {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.titre-2 {
+    text-align: center;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px 0;
+}
+.m-menu {
+    display: flex;
+    gap: 30px;
+}
+.separator {
+    height: 40px;
+    width: 100%;
+    background-color: #C4C4C4;
+}
+.separator-2 {
+    height: 10px;
+    width: 100%;
+    background-color: #C4C4C4;
+}
+.ligne-pleine {
+    height: 2px;
+    background-color: #C4C4C4;
+    width: 300px;
+}
+
+.button {
+
+    color: #C4C4C4;;
+    padding: 8px 15px ;
+    border-radius: 8px;
+    background-color: #000000;
+   
+    
+}
+.acceuil-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+
+}
+.button-2v {
+
+    color: #FFF;;
+    padding: 8px 15px ;
+    border-radius: 8px;
+    background-color: #26874E;
+  
+
+}
+.btn {
+    color: #FFF;;
+    padding: 8px 30px ;
+    border-radius: 8px;
+    background-color: #26874E;
+    text-align: center;
+  
+}
+.menu-img {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    
+   
+}
+/*
+.button:active {
+    background-color: #1c8de4;
+} */
+.categories {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.categorie {
+    
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px ;
+    padding: 3px 20px;
+    box-shadow: 1px 2px 3px 5px #C4C4C4;
+    
+}
+.ident {
+    display: flex;
+    gap: 10px;
+}
+.center {
+    text-align: center;
+   margin: 70px;
+}
+.center-2 {
+    text-align: center;
+}
+.duo {
+   margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+   
+}
+.formul {
+    height: 50vh;
+    width: 100%;
+    background-color: #000000;
+}
+.duo-2, .partenaire {
+    gap: 30px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+ align-items: center;
+  
+
+}
+
+p {
+    font-family: roboto-regular;
+}
+
+.button:hover {
+    background-color: #26874E;
+}
+.text-center {
+    text-align: center;
+}
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-2 {
+
+    display: flex;
+    gap: 30px;
+}
+.lorem {
+    max-width: 500px;
+    font-family: roboto-regular;
+}
+.articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 1px 2px 3px 5px #C4C4C4;
+    padding-bottom: 15px;
+}
+.adn-prof {
+    background-image: url("../images/adnformation.jpg");
+    height: 80vh;
+    width: 35%;
+    margin: 100px;
+}
+.bilan {
+    background-image:   url("../images/dessin.jpg");
+    
+    text-align: center;
+   background-size: cover;
+   background-position: center;
+
+    margin: 70px 0;
+    height: 60vh;
+    width: 100%;
+}
+.formul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+
+}
+
+.doc-list {
+    height: 60vh;
+    width: 50%;
+    margin: 30px 25%;
+    border: 5px solid #C4C4C4;
+}
+.fform label {
+    padding: 10px;
+}
+.fforms {
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+gap: 50px;
+}
+.l-2 input{
+    width:  150px;
+   
+}
+.fforms input {
+    height: 35px;
+}
+.sombre {
+    color: #C4C4C4;
+}
+input {
+    width: 300px;
+    height: 20px;
+    background-color: #C4C4C4;
+    border: none;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mask {
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.5);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.white {
+    color: #FFF;
+}
+.t-20 {
+    font-size: 20px;
+} 
+.bilan .mask {
+    display: flex;
+    flex-direction: column;
+}
+.bilan .mask h2 {
+    text-align: center;
+
+}
+.stat {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.flex-2 {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+@font-face {
+    font-family: roboto-light;
+    src: url(../fonts/roboto/Roboto-Light.ttf)
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/roboto/Roboto-Regular.ttf)
+}
+
+@font-face {
+    font-family: roboto-black;
+    src: url(../fonts/roboto/Roboto-Black.ttf)
+}
+
+@font-face {
+    font-family: sofia-regular;
+    src: url(../fonts/sofia/Sofia-Regular.ttf)
+}
