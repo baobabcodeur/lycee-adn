@@ -390,3 +390,128 @@ form {
     font-family: sofia-regular;
     src: url(../fonts/sofia/Sofia-Regular.ttf)
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 800px) { 
+    .articles, .formul, .categories, .duo, .m-menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .plus {
+        margin: 10px 50px;
+       
+    }
+    .articles-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   
+    .menu-bar, .menu-img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+   
+    .menu-img div img {
+        width: 70%;
+    }
+    .separator {
+        width: 100%;
+    }
+    .details {
+        display: flex;
+        flex-direction: column;
+    }
+    .details .adn-prof {
+        height: 40vh;
+    }
+    .doc-list {
+        height: 50vh;
+        width: 50%;
+        margin: 30px 25%;
+        border: 5px solid #C4C4C4;
+    }
+    .flex-4 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .menu-bar, .menu-img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .articles-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+   
+    .menu-img div img {
+        width: 70%;
+    }
+    .separator {
+        width: 100%;
+    }
+    .details {
+        display: flex;
+        flex-direction: column;
+    }
+    .details .adn-prof {
+        height: 40vh;
+    }
+    .doc-list {
+        height: 40vh;
+        width: 50%;
+        margin: 30px 25%;
+        border: 5px solid #C4C4C4;
+    }
+  
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .menu-bar, .menu-img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .menu-img div img {
+        width: 70%;
+    }
+    .separator {
+        width: 100%;
+    }
+    .details {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .details .adn-prof {
+        height: 70vh;
+    }
+   
+    .doc-list {
+        height: 60vh;
+        width: 50%;
+        margin: 30px 25%;
+        border: 5px solid #C4C4C4;
+    }
+    .articles-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
