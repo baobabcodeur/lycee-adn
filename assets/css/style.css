@@ -391,13 +391,18 @@ form {
     src: url(../fonts/sofia/Sofia-Regular.ttf)
 }
 
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 800px) { 
     .articles, .formul, .categories, .duo, .m-menu {
         display: flex;
         flex-direction: column;
     }
+    .formul {
+        height: 120vh;
+        width: 100%;
+        background-color: #000000;
+    }
+   
     .plus {
         margin: 10px 50px;
        
@@ -515,3 +520,80 @@ form {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
